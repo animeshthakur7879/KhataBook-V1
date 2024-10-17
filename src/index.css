@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#income {
+    background-color: #00FF9C;
+}
+
+#main{
+    width: 100%;
+    min-height: 93vh;
+    
+    
+}
+#navbar{
+    background-color: #2D3250 !important;
+    
+}
+#formInput::placeholder{
+    color: white;
+}
+#btn{
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Blue-purple gradient */
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    transition: all 0.4s ease; /* Smooth transition */
+    outline: none;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    &:hover{
+        background : linear-gradient(135deg, #2575fc, #6a11cb); /* Inverted gradient on hover */
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+        transform: scale(1.05);
+    }
+}
+#heading{
+    /* font-size: 36px;
+    font-weight: bold; */
+    background: linear-gradient(45deg, #F6B17A, #FF8E5E); /* Warm gradient shades */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-align: center;
+    font-family: 'Arial', sans-serif; */
+}
+#income{
+    background: linear-gradient(135deg, #8EF0A8, #34D399); /* Green gradient */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    color: white;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+#expense{
+    background: linear-gradient(135deg, #D4145A, #F00000); /* Green gradient */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    color: white;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+#balance{
+    background: linear-gradient(135deg, #2193b0, #6dd5ed); /* Green gradient */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    color: white;
+    &:hover{
+        transform: scale(1.05);
+    }
+
+}
+
+#incomeStyle{
+    background: linear-gradient(135deg, #8EF0A8, #34D399); /* Green gradient border */
+    padding: 4px; 
+    /* border-radius: 12px; */
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover{
+        transform: scale(1.05); /* Slightly enlarge on hover */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+}
+#incomeStyle h1{
+     /* background-color: #424769; 
+    margin: 0; */
+    padding-inline: 25px;
+    border-radius: 1px;
+    color: white;
+    transition: color 0.3s ease;
+    &:hover{
+        color: #8EF0A8;
+    }
+}
+
+#inner-div{
+    padding: 20px;
+    background-color: #424769;
+}
+
+#expenseStyle{
+    background: linear-gradient(135deg, #FF5F6D, #D32F2F); /* Green gradient border */
+    padding: 4px; 
+    /* border-radius: 12px; */
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover{
+        transform: scale(1.05); /* Slightly enlarge on hover */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+}
+#expenseStyle h1{
+     /* background-color: #424769; 
+    margin: 0; */
+    padding-inline: 25px;
+    border-radius: 1px;
+    color: white;
+    transition: color 0.3s ease;
+    &:hover{
+        color: #FF5F6D;
+    }
+}
